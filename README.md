@@ -1,22 +1,13 @@
-# VCA Muzon Website (UAT)
+# VCA Muzon Website
 
-This repository contains the User Acceptance Testing (UAT) version of the
-Victory Churches of Asia - Muzon website.
+Production website for Victory Churches of Asia - Muzon.
 
-Purpose:
-- Review new features
-- Pastor approval
-- Testing before production
+https://yzcreativetech.github.io/vca-muzon-website/
 
-Production website:
-https://ynzpog.github.io/vca-muzon-website/
+## Deployment
 
-## Development workflow
-
-Changes are implemented and reviewed in this UAT repository before approval
-and promotion to the production website. Each completed milestone should be
-validated locally, committed with a focused message, pushed to the UAT branch,
-and confirmed through the repository's GitHub Actions checks when available.
+The static HTML, CSS, JavaScript, and assets are published through GitHub Pages
+from the production repository `yzcreativetech/vca-muzon-website`.
 
 ## Progress
 
@@ -33,7 +24,7 @@ and confirmed through the repository's GitHub Actions checks when available.
 
 ## Release notes
 
-### UAT - About Hero Video
+### About Hero Video
 
 The About page now uses responsive drone footage in its hero area while keeping
 the original church image as a reliable poster and accessibility fallback. The
